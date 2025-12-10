@@ -1,0 +1,15 @@
+# Personal Configuration Template
+# Copy this file to personal.conf and fill in your information
+# personal.conf is gitignored and will not be committed
+
+# Git Configuration
+GIT_USER_NAME="Your Name"
+GIT_USER_EMAIL="your.email@example.com"
+
+# Optional: Work/Project Paths
+WORK_DIRECTORY="${HOME}/projects"
+EDITOR_BINARY="/opt/homebrew/bin/code"
+
+# Optional: GitHub Token (for scripts that need it)
+# Store the actual token in ~/.github_token (recommended)
+# GITHUB_TOKEN_FILE="${HOME}/.github_token"

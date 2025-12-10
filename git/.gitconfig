@@ -1,0 +1,82 @@
+[alias]
+st = status
+co = checkout
+ci = commit
+br = branch
+df = diff
+lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+lga = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+lgb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+lgt = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --tags
+lgr = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --remotes
+
+[branch]
+sort = -committerdate
+
+[commit]
+verbose = true
+
+[core]
+excludesfile = ~/.gitignore_global
+autocrlf = input
+pager = delta
+
+[delta]
+navigate = true
+light = false
+side-by-side = true
+line-numbers = true
+
+[diff]
+compactionHeuristic = true
+renames = copies
+algorithm = histogram
+colorMoved = default
+
+[fetch]
+fsckobjects = true
+prune = true
+pruneTags = true
+
+[filter "lfs"]
+clean = git-lfs clean -- %f
+smudge = git-lfs smudge -- %f
+process = git-lfs filter-process
+required = true
+
+[help]
+autocorrect = 10
+
+[init]
+defaultBranch = main
+
+[merge]
+conflictstyle = diff3
+
+[pull]
+rebase = true
+
+[push]
+default = current
+autoSetupRemote = true
+
+[rebase]
+autosquash = true
+autostash = true
+
+[receive]
+fsckobjects = true
+
+[rerere]
+enabled = true
+
+[transfer]
+fsckobjects = true
+
+[url "ssh://git@github.com/"]
+insteadOf = https://github.com/
+
+[user]
+# Replace with your own email and name
+email = your.email@example.com
+name = Your Name

@@ -1,0 +1,11 @@
+zsh/.config/zsh/.zsh_history
+zsh/.config/zsh/.zcompdump*
+
+# Personal configuration (contains user-specific info)
+personal.conf
+
+# Work-specific configurations (contains company secrets)
+work/
+
+# Claude Code local settings
+.claude/
