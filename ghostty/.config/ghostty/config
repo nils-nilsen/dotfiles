@@ -1,0 +1,7 @@
+# Ghostty configuration
+# Docs: https://ghostty.org/docs/config
+
+# Make the split/pane separator clearly visible against the dark background.
+# The default divider blends into the background (~#282c34); this bright
+# accent gives high contrast. Change to taste (any #rrggbb hex value).
+split-divider-color = #61afef
