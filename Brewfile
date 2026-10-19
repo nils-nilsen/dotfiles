@@ -1,6 +1,7 @@
 # Core development tools
 brew "git"
 brew "vim" 
+brew "neovim"
 brew "zsh"
 brew "starship"
 
@@ -30,6 +31,7 @@ brew "python@3.11"
 brew "go"
 brew "docker"
 brew "docker-compose"
+brew "tree-sitter-cli" # Required by LazyVim (nvim-treesitter)
 
 # System tools
 brew "htop"
@@ -40,3 +42,6 @@ brew "tree"           # Directory tree viewer
 brew "stow"           # Dotfiles manager
 brew "pygments"       # Syntax highlighting (required by common-aliases plugin)
 
+
+# Fonts
+cask "font-jetbrains-mono-nerd-font" # Icons in Neovim/LazyVim

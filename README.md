@@ -54,6 +54,8 @@ dotfiles/
 │   └── .gitignore_global   # → ~/.gitignore_global
 ├── vim/                    # Vim configuration
 │   └── .vimrc              # → ~/.vimrc
+├── nvim/                   # Neovim (LazyVim)
+│   └── .config/nvim/       # → ~/.config/nvim/
 ├── starship/               # Starship prompt
 │   └── .starship.toml      # → ~/.starship.toml
 ├── lazygit/                # Lazygit TUI
