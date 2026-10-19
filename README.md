@@ -56,6 +56,8 @@ dotfiles/
 │   └── .vimrc              # → ~/.vimrc
 ├── nvim/                   # Neovim (LazyVim)
 │   └── .config/nvim/       # → ~/.config/nvim/
+├── ghostty/                # Ghostty terminal
+│   └── .config/ghostty/    # → ~/.config/ghostty/
 ├── starship/               # Starship prompt
 │   └── .starship.toml      # → ~/.starship.toml
 ├── lazygit/                # Lazygit TUI
