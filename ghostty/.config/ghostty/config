@@ -1,6 +1,12 @@
 # Ghostty configuration
 # Docs: https://ghostty.org/docs/config
 
+# Nerd Font for icons in Neovim/LazyVim (installed via Brewfile)
+font-family = JetBrainsMono Nerd Font
+
+# Send ESC+Enter on Shift+Enter (newline in Claude Code and other TUIs)
+keybind = shift+enter=text:\x1b\r
+
 # Make the split/pane separator clearly visible against the dark background.
 # The default divider blends into the background (~#282c34); this bright
 # accent gives high contrast. Change to taste (any #rrggbb hex value).
